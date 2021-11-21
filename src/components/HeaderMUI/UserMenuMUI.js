@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { authSelectors, authOperations } from 'redux/auth';
+import { authSelectors, authOperations } from '../../redux/auth';
 import Button from '@material-ui/core/Button';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 

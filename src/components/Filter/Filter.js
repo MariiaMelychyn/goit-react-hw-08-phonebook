@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { contactsSelectors } from 'redux/contacts';
-import * as contactsActions from 'redux/contacts';
+import { contactsSelectors } from '../../redux/contacts';
+import * as contactsActions from '../../redux/contacts';
 import InputBase from '@material-ui/core/InputBase';
 import PropTypes from 'prop-types';
 import FormContainer from '../FormComponents/FormContainer';
