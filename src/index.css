@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 767px) {
   img {
     margin-top: 100px;

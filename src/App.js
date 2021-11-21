@@ -9,7 +9,8 @@ import { authOperations, authSelectors } from './redux/auth';
 import HeaderMUI from './components/HeaderMUI/HeaderMUI';
 import BottomAppBar from './components/Footer/BottomAppBar';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core';
-import { css } from '@emotion/core';
+// import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import ClockLoader from 'react-spinners/ClockLoader';
 
 const HomeView = lazy(() => import('./views/HomeView'));
