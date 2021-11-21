@@ -5,7 +5,7 @@ import FormContainer from '../components/FormComponents/FormContainer';
 import Form from '../components/FormComponents/Form';
 import Input from '../components/FormComponents/Input';
 import PrimaryButton from '../components/FormComponents/PrimaryButton';
-import { yupResolver } from '@hookform/resolvers';
+import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 
 const schema = yup.object().shape({
