@@ -46,6 +46,7 @@
     "heroku-postbuild": "npm run build",
     "predeploy": "npm run build",
     "deploy": "netlify deploy -p"
+    
   },
   "eslintConfig": {
     "extends": [
